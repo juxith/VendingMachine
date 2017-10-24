@@ -1,0 +1,117 @@
+.border {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    background-image: url(snickers.jpg.crdownload)
+}
+
+.lowerBorder {
+    border: 2px solid white;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+.lastLower {
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+.displayBox {
+    border: 2px solid white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+#message {
+    border: 2px solid white;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.centerContent {
+    text-align: center;
+}
+
+.returnChangeBox {
+    border: 2px solid white;
+    width: 230px;
+    height: 90px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+button {
+    border-radius: 10px;
+    color: white
+}
+
+.alignId{
+    text-align: left;
+    text-indent: 10%;
+}
+
+body {
+    font: normal 20px Georgia, Arial, sans-serif;
+    background-image: url(vendingMachinePic2.jpg);
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer {
+   height: 20%;
+   background-color: black;
+}
+
+.itemImage{
+    height: 60px;
+    width: 200px;
+}
+
+hr{
+    font-weight: bolder;
+    color: white;
+}
+
+.leftColumn{
+    text-align: right;
+}
+
+
+
+
+table, td{
+    border: 2px solid;
+    text-align: center;
+}
+
+table{
+    width: 500px;
+}

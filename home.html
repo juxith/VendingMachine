@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vending Machine</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/site.css" rel="stylesheet">
+
+</head>
+<body>
+    <h1>TSG Vending Machine</h1><hr />
+    <!--Row 1-->
+    <div class="container">
+        <div class="row">
+            <a onclick="sendItemNumber(1)">
+                <div class="col-xs-3">
+                    <div class="border">
+                        <div class="centerContent" id="item1">
+                            <!--this is where you'd make your json populate the info-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a onclick="sendItemNumber(2)">
+                <div class="col-xs-3">
+                    <div class="border">
+                        <div class="centerContent" id="item2">
+                            <!--this is where you'd make your json populate the info-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a onclick="sendItemNumber(3)">
+                <div class="col-xs-3">
+                    <div class="border">
+                        <div class="centerContent" id="item3">
+                            <!--this is where you'd make your json populate the info-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="col-xs-3">
+                <div class="lowerBorder">
+                    <p>Total $ In</p>
+                    <p><input type="text" class="displayBox" id="totalIn" readonly /></p>
+                    <p>
+                        <button type="button" class="btn-btn btn-primary" id="addDollar" data-amount="1">Add $1.00</button>
+                        <button type="button" class="btn-btn btn-primary" id="addQuarter" data-amount=".25">Add $0.25</button>
+                    </p>
+                    <p>
+                        <button type="button" class="btn-btn btn-primary" id="addDime" data-amount=".10">Add $0.10</button>
+                        <button type="button" class="btn-btn btn-primary" id="addNickel" data-amount=".05">Add $0.05</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div><br />
+
+    <!--Row 2-->
+    <div class="container">
+        <div class="row">
+            <a onclick="sendItemNumber(4)">
+                <div class="col-xs-3">
+                    <div class="border">
+                        <div class="centerContent" id="item4">
+                            <!--this is where you'd make your json populate the info-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a onclick="sendItemNumber(5)">
+                <div class="col-xs-3">
+                    <div class="border">
+                        <div class="centerContent" id="item5">
+                            <!--this is where you'd make your json populate the info-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a onclick="sendItemNumber(6)">
+                <div class="col-xs-3">
+                    <div class="border">
+                        <div class="centerContent" id="item6">
+                            <!--this is where you'd make your json populate the info-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="col-xs-3">
+                <div class="lowerBorder">
+                    <p>Messages</p>
+                    <p><input type="text" id="message" placeHolder="Hangry? Get a snack!" readonly /></p>
+                    <p>Item: <input type="text" class="displayBox" id="itemSelection" placeholder="item #" /></p>
+                    <p><button type="button" class="btn-btn btn-primary" id="purchase">Make Purchase</button></p>
+
+                </div>
+            </div>
+        </div>
+    </div><br />
+
+    <!--Row 3-->
+    <div class="container">
+        <div class="row">
+            <a onclick="sendItemNumber(7)">
+                <div class="col-xs-3">
+                    <div class="border">
+                        <div class="centerContent" id="item7">
+                            <!--this is where you'd make your json populate the info-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a onclick="sendItemNumber(8)">
+                <div class="col-xs-3">
+                    <div class="border">
+                        <div class="centerContent" id="item8">
+                            <!--this is where you'd make your json populate the info-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <a onclick="sendItemNumber(9)">
+                <div class="col-xs-3">
+                    <div class="border">
+                        <div class="centerContent" id="item9">
+                            <!--this is where you'd make your json populate the info-->
+                        </div>
+                    </div>
+                </div>
+            </a>
+            <div class="col-xs-3">
+                <div style="text-align:center" class="lastLower">
+                    <p>Change</p>
+                    <p type="text" class="returnChangeBox" id="changeReturned"></p>
+                    <button type="button" class="btn-btn btn-primary" id="reset">Return Change</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/home.js"></script>
+    <footer></footer>
+</body>
+</html>
